@@ -1,0 +1,129 @@
+@media(max-width: 992px){
+    .bottom-header{
+        display: none;
+    }
+    .search-btn, .top-left{
+        display: none;
+    }
+    .travel-beyond-img{
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+    .footer-content{
+        padding-top: 20px;
+    }
+}
+@media(max-width: 767px){
+    .prl30{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .ptb60{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .pt60{
+        padding-top: 30px;
+    }
+    .pb60{
+        padding-bottom: 30px;
+    }
+}
+@media(max-width: 560px){
+    
+    .explore-destinations-navtab ul{
+        gap: 10px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .blog-image2 img{
+        width: 100%;
+    }
+    .fontlarge{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .banner{
+        padding: 80px 0;
+    }
+    .main-banner .slick-prev{
+        left: 0;
+    }
+    .main-banner .slick-next{
+        right: 0;
+    }
+    .section-main-title{
+        font-size: 28px;
+    }
+    .explore-destination-banner .slick-prev,
+    .trending-banner .slick-prev,
+    .international-destination-banner .slick-prev{
+        left: 0;
+    }
+    .explore-destination-banner .slick-next,
+    .trending-banner .slick-next,
+    .international-destination-banner .slick-next{
+        left: 40px;
+    }
+    .explore-destination-banner .slick-next, 
+    .explore-destination-banner .slick-prev,
+    .trending-banner .slick-prev,
+    .trending-banner .slick-next,
+    .international-destination-banner .slick-prev,
+    .international-destination-banner .slick-next{
+        top: -25px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .international-destination-banner .slick-slide.slick-current.slick-active{
+        transform: scaleX(1);
+    }
+    .cta-design{
+        padding: 40px 20px;
+    }
+    .cta-content h3{
+        font-size: 30px;
+    }
+    .why-choose-box{
+        padding: 20px;
+    }
+    .why-choose-para h4{
+        font-size: 20px;
+    }
+    .bottom-footer{
+        flex-wrap: wrap;
+    }
+    .travel-beyond{
+        margin-left: 0;
+    }
+    .travel-beyond-content{
+        padding: 20px;
+    }
+    .travel-beyond-content h3{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .blog-card2, .blog-card1{
+        height: auto;
+        margin: 10px 0;
+    }
+    .search-box{
+        margin-top: 0;
+        padding-top: 30px;
+    }
+    .search-box-design{
+        padding: 15px;
+    }
+    .darkbtn{
+        padding: 10px;
+    }
+    .explore-destination-card,
+    .trending-card{
+        margin: 15px 0;
+    }
+}
